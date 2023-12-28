@@ -250,25 +250,38 @@ padding-left: 16px;
 }
 
 .section-two {
-    width: 1440px;
+    /* width: 1440px; */
     flex-shrink: 0;
     background: #FFF;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
     padding: 120px 0;
     
 }
 .benefits {
+    /* display: flex;
+    flex-wrap: nowrap; */
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 24px;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 72px;
+  margin-left: auto;
+margin-right: auto;
+    /* margin: 0;
+    padding: 0; */
     list-style: none;
   
 }
-    .benefits .item {
-        width: calc((100% - 72px) / 4);
+@media only  screen and (min-width: 1158px) {
+  .benefits
+  {
+    gap: 48px 24px;
+
+}
+}   
+
+.benefits .stratrgy-item {
+        /* width: calc((100% - 72px) / 4); */
         border-radius: 0px 0px 4px 4px;
         border-top-left-radius: 0px; 
         border-top-right-radius: 0px ; 
@@ -307,6 +320,20 @@ padding-left: 16px;
     letter-spacing: 0.02em;
 }
 
+@media only  screen and (min-width: 768px) {
+  .stratrgy-item
+  {
+    width: calc((100% - 72px *1) / 2);
+
+}
+}
+@media only  screen and (min-width: 1158px) {
+  .stratrgy-item
+  {
+  width: calc((100% - 24px *3) / 4);
+
+}
+}
 /*SECTION 3*/
 
 .team {
