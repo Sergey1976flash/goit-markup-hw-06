@@ -323,7 +323,7 @@ flex-wrap: wrap;
 @media only  screen and (min-width: 1158px) {
   .team-list
   {
-    gap: 24px 32px;
+    gap: 48px 24px;
 
 }
 }
