@@ -375,14 +375,14 @@ text-align: center;
 @media only  screen and (min-width: 768px) {
   .team-item
   {
-  width: calc(100%-72*1) /2;
+    width: calc((100% - 72px *1) / 2);
 
 }
 }
 @media only  screen and (min-width: 1158px) {
   .team-item
   {
-  width: calc(100%-24*3) /4;
+  width: calc((100%-24 *3) / 4);
 
 }
 }
