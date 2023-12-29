@@ -947,3 +947,12 @@ input:checked + label > span {
 .checkbox-text-span {
   color: #4d5ae5;
 }
+
+/* Mobile menu */
+.menu {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+ width: 100%; 
+ height: 100%;
+}
