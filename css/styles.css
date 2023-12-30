@@ -100,6 +100,9 @@ padding-left: 16px;
   text-transform: uppercase;
   margin-right: 76px;
   text-decoration: none;
+  padding-top: 16px;
+padding-bottom: 16px;
+
 }
 .logo-two {
   color: #2e2f42;
@@ -117,8 +120,10 @@ padding-left: 16px;
 .header-nav {
   display: inline-flex;
   align-items: center;
+flex-grow:1 ;
+  /* margin-right: auto; */
 
-  margin-right: auto;}
+}
 
 .header-link {
   text-decoration: none;
@@ -1080,4 +1085,15 @@ input:checked + label > span {
   color: #f4f4fd;
   border-radius: 50%;
   background-color: #4d5ae5;
+}
+.menu-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+}
+@media only screen and (min-width: 768px) {
+.menu-btn {
+display: none;  
+}
 }
