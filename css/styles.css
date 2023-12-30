@@ -156,11 +156,11 @@ flex-grow:1 ;
   left: 0;
   bottom: -1px;
 }
-@media only screen and (max-width: 767.98px) {
+/* @media only screen and (max-width: 767.98px) {
   .contacts-list {
     display: none;
   } 
-}
+} */
 .contacts {
   font-style: normal;
   justify-content: flex-end;
