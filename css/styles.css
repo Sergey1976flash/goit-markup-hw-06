@@ -109,6 +109,11 @@ padding-left: 16px;
   align-items: flex-start;
   gap: 40px;
 }
+@media only screen and (max-width: 767.98px) {
+  .header-list {
+    display: none;
+  } 
+}
 .header-nav {
   display: inline-flex;
   align-items: center;
@@ -145,6 +150,11 @@ padding-left: 16px;
   position: absolute;
   left: 0;
   bottom: -1px;
+}
+@media only screen and (max-width: 767.98px) {
+  .contacts-list {
+    display: none;
+  } 
 }
 .contacts {
   font-style: normal;
