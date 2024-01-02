@@ -305,7 +305,7 @@ flex-grow:1 ;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   max-width: 288px;
@@ -730,6 +730,7 @@ margin-right: auto;
     }
     .footer-container 
     { display: flex;
+      flex-wrap: wrap;
       align-items: baseline
       }
     @media only screen and (max-width: 767.98px) {

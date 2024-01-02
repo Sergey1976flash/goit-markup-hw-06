@@ -138,6 +138,7 @@
             <li class="team-item">
               <img
                 class="section-three-img"
+                srcset="./images/team/mark-guerro@1x.jpg 1x, ./images/team/mark-guerro@2x.jpg 2x"
                 src="./images/img-mark-guerrero.jpg"
                 alt="product-designer"
                 width="264"
@@ -180,6 +181,8 @@
             <li class="team-item">
               <img
                 class="section-three-img"
+                srcset="./images/team/tom-ford@1x.jpg 1x, ./images/team/tom-ford@2x.jpg 2x"
+                src="./images/img-mark-guerrero.jpg"
                 src="./images/img-tom-ford.jpg"
                 alt="frontend-developer"
                 width="264"
@@ -222,6 +225,7 @@
             <li class="team-item">
               <img
                 class="section-three-img"
+                srcset="./images/team/camila-garcia@1x.jpg 1x, ./images/team/camila-garcia@2x.jpg 2x"
                 src="./images/img-camila-garcia.jpg"
                 alt="marketing"
                 width="264"
@@ -264,6 +268,8 @@
             <li class="team-item">
               <img
                 class="section-three-img"
+                srcset="./images/team/daniel-wilson@1x.jpg 1x, ./images/team/daniel-wilson@2x.jpg 2x"
+                src="./images/img-camila-garcia.jpg"
                 src="./images/img-daniel-wilson.jpg"
                 alt="ui-designer"
                 width="264"
@@ -315,12 +321,34 @@
           <ul class="benefits-four">
             <li class="portfolio-item">
               <div class="portfolio-wrapper">
-                <img
+                <picture>
+                  <!-- Desktop -->
+                  <source 
+                  media="(min-width: 1158px)" srcset="./images/portfolio-desktop/desktopbanking-app@1x.jpg 1x,
+                   ./images/portfolio-desktop/desktopbanking-app@2x.jpg 2x">
+
+                   <!-- Tablet -->
+                   <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-tab/tabbanking-app@1x.jpg 1x,
+                      ./images/portfolio-tab/tabbanking-app@2x.jpg 2x
+                    " />
+                  <!-- Mobile -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-mobile/mobBanking-App@1x.jpg 1x,
+                      ./images/portfolio-mobile/mobBanking-App@2x.jpg 2x
+                    " />  
+                  <img
                   class="section-four-img"
                   src="./images/banking-app.jpg"
                   alt="banking-app"
                   width="360"
                   height="300" />
+                </picture>
+                
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
