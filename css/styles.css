@@ -455,9 +455,9 @@ flex-grow:1 ;
 }
 .team-list {
   display: flex;
-flex-wrap: wrap;
-  list-style: none;
-  gap: 72px;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
   border-radius: 0px 0px 4px 4px;
 }
 @media only  screen and (min-width: 1158px) {
@@ -513,8 +513,8 @@ margin-right: auto;
 @media only  screen and (min-width: 768px) {
   .team-item
   {
-    width: calc((100% - 72px *1) / 2);
-  
+    width: 264px
+    
 }
 }
 @media only  screen and (min-width: 1158px) {
