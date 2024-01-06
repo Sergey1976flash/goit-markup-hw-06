@@ -217,8 +217,9 @@ flex-grow:1 ;
 .hero {
 
    background-color: #2e2f42;
-   padding-top:188px;
-   padding-bottom: 188px;
+padding: 72px 0;
+   /* padding-top:188px;
+   padding-bottom: 188px; */
    background-image: linear-gradient(
        to bottom,
        rgba(46, 47, 66, 0.7),
@@ -268,6 +269,8 @@ flex-grow:1 ;
 
 @media only screen and (min-width: 1158px) {
   .hero {
+    padding-top:188px;
+   padding-bottom: 188px;
     max-width: 1440px;
     background-image: linear-gradient(
         to bottom,
@@ -368,19 +371,21 @@ flex-grow:1 ;
 }
 
 .section-two {
-    /* width: 1440px; */
-    /* flex-shrink: 0;
+    /* width: 1440px;
+   flex-shrink: 0;
     background: #FFF;
-    /* max-width: 1440px; */
-    /* margin: 0 auto;
-    padding: 120px 0; */
-     */
+   max-width: 1440px;
+   margin: 0 auto;
+    padding: 120px 0;
+      */
+      padding-top: 96px;
+      padding-bottom: 96px;
 }
 .benefits {
     
     display: flex;
     flex-wrap: wrap;
-   
+   gap: 72px;
 }
 @media only  screen and (min-width: 1158px) {
   .benefits
@@ -431,7 +436,8 @@ flex-grow:1 ;
     align-self: stretch
 }
 .strategy-item {
- padding-bottom: 64px; 
+ /* padding-bottom: 64px;  */
+ text-align: center;
 }
 @media only  screen and (min-width: 768px) {
   .strategy-item
@@ -451,7 +457,8 @@ flex-grow:1 ;
 
 .team {
   background-color: var(--CLOUD, #f4f4fd);
-  padding: 96px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-list {
   display: flex;
@@ -759,7 +766,7 @@ margin-right: auto;
   }
   @media only screen and (min-width: 1158px) {
     .footer-top {
-      /* margin-right: 120px; */
+      margin-right: 120px;
     }
   }
   .footer-logo {
@@ -793,7 +800,7 @@ margin-right: auto;
   }
   @media only screen and (max-width: 767.98px) {
     .footer-mid {
-      margin-bottom: 72px;
+      /* margin-bottom: 72px; */
     }
   }
   @media only screen and (min-width: 1158) {
@@ -832,7 +839,7 @@ margin-right: auto;
       }
     }
     .footer-mid {
-      margin-right: auto;
+      /* margin-right: auto; */
     }
     .footer .socials-link {
       color: #F4F4FD;
